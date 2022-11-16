@@ -1,9 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
 
+import styles from '../../styles/Navbar.module.css'
+
 export default function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <div>
         <Image
           src='/images/pokeball.png'
@@ -12,7 +14,7 @@ export default function Navbar() {
           alt='PokeNext' />
         <h1>PokeNext</h1>
       </div>
-      <ul>
+      <ul className={styles.link_items}>
         <li>
           <Link href="/">
             Home
