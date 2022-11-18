@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import styles from '../styles/Home.module.css'
 
-import Card from '../componentes/cards'
+import Card from '../componentes/Cards'
 
 export async function getStaticProps() {
 
