@@ -44,3 +44,9 @@
   background-color: #E33D33;
   color: #fff;
 }
+
+@media (max-width: 570px) {
+  .card {
+    padding: 1em 8em 2em;
+  }
+}
