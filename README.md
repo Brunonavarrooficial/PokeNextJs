@@ -1,3 +1,67 @@
+# PokeNext-Js  <img width='40px' align='center' src='./public/images/pokeball.png' />
+
+🎴 Projeto consumindo uma api de imagem e outra de informações, renderizando tudo em diversos cards de pokemon com todo conteudo sobre cada um como exemplo: nome, poder, característica entre outros conteúdos. 🎴
+#
+* Deploy Vercel ☁️:
+  * [PokeNext](https://pokenext-js-eight.vercel.app/) <img align='center' src='./public/images/favicon.ico' />
+#
+
+* API's Manupuladas no Projeto 🌐:
+    * [x] Informações contendo as imagens dos pokemons:
+      * [raw.githubusercontent.com](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png) 🖼️
+    * [x] Informações completas baseadas na característica de cada pokemon
+       * [pokeapi.co](https://pokeapi.co/api/v2/pokemon/) ℹ️
+
+#
+
+* Stacks 📚 and Skills 🧠:
+
+    * <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />CSS<img align='center' width='30' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+        * Flex-Box
+        * Media Query
+    * <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> JavaScript <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+        * DOM
+        * Eventos
+        * Funções
+        * Fetch
+    * <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" /> Next-Js <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+        * JSX
+        * Props
+        * Rotas
+        * Bibliotéca **Image**
+          * Utilizada para renderizar imagens no Next-Js
+        * next.config.js
+          * Configuração deste arquivo para habilitar a  manipulação apis dentro do projeto:
+            * ```
+               module.exports = {
+                reactStrictMode: true,
+                images: {
+                  remotePatterns: [
+                    {
+                      protocol: "https",
+                      hostname: "**",
+                    },
+                  ],
+                },
+              }
+
+#
+
+<div align='center'>
+<h3>Page 📑:</h3>
+<h4>Pokemon Cards 🎴:</h3>
+<img src="./public/images/pokenext.gif"/>
+</div>
+
+#
+
+<div align='center'>
+<h3>Responsive Mobile📲:</h3>
+<h4>Pokemon Cards 🎴:</h3>
+<img src="./public/images/pokenextmobile.gif"/>
+</div>
+#
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
